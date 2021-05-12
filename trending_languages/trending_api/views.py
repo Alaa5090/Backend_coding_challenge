@@ -12,5 +12,7 @@ def trending_lang(request):
     last_month = (time_now - timedelta(days=30)).strftime("%Y-%m-%d")
     url = "https://api.github.com/search/repositories?q=created:>{0}&sort=stars&order=desc&page=1&per_page=100".format(last_month)
     data=requests.get(url).json()
+
+    set_of_lang = {element['language'] for element in data['items'] if element['language'] != None}
     
     return HttpResponse(json.dumps(data), content_type="application/json")
