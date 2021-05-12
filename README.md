@@ -67,3 +67,6 @@ Now, Starting development server at http://127.0.0.1:8000/
 |-------------  |-----------|
 |/trending_lang | list all languages in 100 trending github repos.
 
+### postman testing:
+
+<p align="center"> <img src="./trending_laguages.PNG"> </p>
