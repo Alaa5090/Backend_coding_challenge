@@ -69,4 +69,4 @@ Now, Starting development server at http://127.0.0.1:8000/
 
 ### postman testing:
 
-<p align="center"> <img src="./trending_laguages.PNG"> </p>
+<p align="center"> <img src="./trending_laguages.jpg"> </p>
