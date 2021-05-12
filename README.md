@@ -36,7 +36,7 @@ Code in this repository is provided under the terms of the [MIT license](https:/
 
 ## Technologies used
 
-	- Django			: python web framework
+	- Django		: python web framework
 	- python Requests 	: for using requests capabilities
 	
 
